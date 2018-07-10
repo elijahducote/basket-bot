@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-  client.defaultChannel.send("<@226906826061512704>");
+  client.channel.send("<@226906826061512704>");
 
 });
 
