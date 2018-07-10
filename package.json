@@ -1,0 +1,30 @@
+{
+  "name": "basket-bot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elijahducote/basket-bot.git"
+  },
+  "description": "A fun Discord Node.js bot",
+  "keywords": [
+    "discord",
+    "discord js",
+    "discord bot"
+    "npm"
+    "node.js",
+    "node",
+    "node js"
+  ],
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": ">=11.3.0"
+  },
+  "engines": {
+    "node": ">=8.9.1",
+    "npm": ">=6.1.0"
+  }
+}
