@@ -7,8 +7,8 @@ client.on('ready', () => {
   function mention() {
     client.channels.get('433451627282956292').send('<@226906826061512704>');
   }
-  setInterval(mention, 300);
-  function mention() {
+  setInterval(test, 300);
+  function test() {
     client.channels.get('465065121287372814').send('test');
   }
 
