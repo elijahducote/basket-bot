@@ -6,7 +6,7 @@ client.on('ready', () => {
   function test() {
     client.channels.get('465065121287372814').send('test');
   }
-  setInterval(test, 300);
+  setInterval(test, 0);
 
 });
 
